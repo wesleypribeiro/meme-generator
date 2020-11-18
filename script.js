@@ -47,18 +47,18 @@ function changeImg(event) {
     let memes = document.querySelectorAll('img')
 
     if (event.target == memes[1]) {
-        meme_image_img.src = '/imgs/meme1.jpg';
+        meme_image_img.src = 'imgs/meme1.jpg';
     }
 
     else if (event.target == memes[2]) {
-        meme_image_img.src = '/imgs/meme2.jpg';
+        meme_image_img.src = 'imgs/meme2.jpg';
     }
 
     else if (event.target == memes[3]) {
-        meme_image_img.src = '/imgs/meme3.jpg';
+        meme_image_img.src = 'imgs/meme3.jpg';
     }
 
     else if (event.target == memes[4]) {
-        meme_image_img.src = '/imgs/meme4.jpg';
+        meme_image_img.src = 'imgs/meme4.jpg';
     }
 }
